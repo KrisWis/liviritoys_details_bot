@@ -22,7 +22,7 @@ logging.basicConfig(  # Чтобы бот работал успешно, соз�
 
 
 # Создаём Telegram бота и диспетчер
-Bot = aiogram.Bot("6295883791:AAEYXIEMTrbHlYbq49uL59LPvu8QQdWwAEc")
+Bot = aiogram.Bot("")
 DP = aiogram.Dispatcher(Bot, storage=MemoryStorage())
 
 # Создаём базу данных
